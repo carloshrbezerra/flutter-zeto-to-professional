@@ -7,9 +7,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    
-    return new Directionality(
-      textDirection: TextDirection.ltr,
-      child: (new Center (child: Text("Hello Flutter"),))
+    return new MaterialApp(
+      title: "MySample",
+      home: new Scaffold(
+        appBar: new AppBar(
+          title: new Text("My Second flutter"),
+        ),
+        body: new Center(child: new Text("Hellow!"),),
+      )
     );
   }
   
