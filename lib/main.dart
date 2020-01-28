@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         appBar: new AppBar(
           title: new Text("My Second flutter"),
         ),
-        body: new Center(child: new Text("Hellow!"),),
+        body: new Center(child: new Row(children: <Widget>[new Text("Hello!"), new Text("Carlos!")],),),
       )
     );
   }
